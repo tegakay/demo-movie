@@ -2,7 +2,7 @@ import React from "react";
 import { Box } from "@chakra-ui/react";
 
 export default function List(props) {
-  const { id, key, name } = props;
+  const {  name } = props;
 
   return (
     <div className="square--box">
