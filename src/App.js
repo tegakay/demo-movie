@@ -1,7 +1,6 @@
 import './App.css';
 import MoveList from './components/MovieList';
 import Navbar from './components/Navbar';
-import Search from './components/Search';
 import Welcome from './components/Welcomebanner';
 
 

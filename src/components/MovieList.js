@@ -52,13 +52,13 @@ export default function MoveList() {
         <p className="movie--title">{Movie.Genre}</p>
         <ul className="stop-overflow">
           <li>
-            <List key={Movie.imdbID} id={Movie.imdbID} name={Movie.Title} />
+            <List  name={Movie.Title} />
           </li>
           <li>
-            <List key={Movie.imdbID} id={Movie.imdbID} name={Movie.Title} />
+            <List  name={Movie.Title} />
           </li>
           <li>
-            <List key={Movie.imdbID} id={Movie.imdbID} name={Movie.Title} />
+            <List  name={Movie.Title} />
           </li>
         </ul>
       </div>
@@ -66,13 +66,13 @@ export default function MoveList() {
         <p className="movie--title">{Movie.Genre}</p>
         <ul className="stop-overflow">
           <li>
-            <List key={Movie.imdbID} id={Movie.imdbID} name={Movie.Title} />
+            <List name={Movie.Title} />
           </li>
           <li>
-            <List key={Movie.imdbID} id={Movie.imdbID} name={Movie.Title} />
+            <List  name={Movie.Title} />
           </li>
           <li>
-            <List key={Movie.imdbID} id={Movie.imdbID} name={Movie.Title} />
+            <List  name={Movie.Title} />
           </li>
         </ul>
       </div>
