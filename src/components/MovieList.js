@@ -12,7 +12,7 @@ export default function MoveList() {
   }, []);
 
   const fetchreq = () => {
-    fetch("http://www.omdbapi.com/?i=tt3896198&apikey=b21ca097")
+    fetch("https://www.omdbapi.com/?i=tt3896198&apikey=b21ca097")
       .then((res) => res.json())
       .then((data) => setMovie(data))
       .then((data) => {
@@ -24,7 +24,7 @@ export default function MoveList() {
   
     let moviename = e.target.value
     setLoading(true)
-    fetch(`http://www.omdbapi.com/?t=${moviename}&apikey=b21ca097`)
+    fetch(`https://www.omdbapi.com/?t=${moviename}&apikey=b21ca097`)
       .then((res) => res.json())
       .then((data) => setMovie(data))
       .then((data) => {
