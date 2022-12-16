@@ -21,7 +21,7 @@ export default function MoveList() {
   };
 
   const Search = (e) => {
-    console.log("here", e.target.value);
+  
     let moviename = e.target.value
     setLoading(true)
     fetch(`http://www.omdbapi.com/?t=${moviename}&apikey=b21ca097`)
